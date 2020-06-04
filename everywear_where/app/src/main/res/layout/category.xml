@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/cateimg"
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="&lt;상의&gt;"
+        android:background="@drawable/btn_stylie1"
+        android:textColor="@color/colorWhite"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/top_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/ban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="반팔"
+                />
+            <RadioButton
+                android:id="@+id/longpal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="긴팔"
+                />
+            <RadioButton
+                android:id="@+id/hood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="후드티"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재질 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/top_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/topCotton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="면(코튼)"
+                />
+
+            <RadioButton
+                android:id="@+id/topWool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모직(울)"
+                />
+            <RadioButton
+                android:id="@+id/topPoly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="폴리에스터"
+                />
+        </RadioGroup>
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="색깔 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/top_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/topWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="흰색"
+                />
+            <RadioButton
+                android:id="@+id/topGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회색"
+                />
+            <RadioButton
+                android:id="@+id/topBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="검정색"
+                />
+            <RadioButton
+                android:id="@+id/topBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파란색"
+                />
+        </RadioGroup>
+    </LinearLayout>-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="&lt;하의&gt;"
+        android:background="@drawable/btn_stylie1"
+        android:textColor="@color/colorWhite"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/bottom_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/bottomBan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="반바지"
+                />
+            <RadioButton
+                android:id="@+id/bottomLong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="긴바지"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재질 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/bottom_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/bottomCotton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="면(코튼)"
+                />
+            <RadioButton
+                android:id="@+id/bottomDenim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="청(데님)"
+                />
+
+            <RadioButton
+                android:id="@+id/bottomPoly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="폴리에스터"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="색깔 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/bottom_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/bottomWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="흰색"
+                />
+            <RadioButton
+                android:id="@+id/bottomGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회색"
+                />
+            <RadioButton
+                android:id="@+id/bottomBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="검정색"
+                />
+            <RadioButton
+                android:id="@+id/bottomBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파란색"
+                />
+        </RadioGroup>
+    </LinearLayout>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="&lt;아우터&gt;"
+        android:background="@drawable/btn_stylie1"
+        android:textColor="@color/colorWhite"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종류 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/outer_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/outjum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="패딩"
+                />
+            <RadioButton
+                android:id="@+id/outCoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="코트"
+                />
+            <RadioButton
+                android:id="@+id/outJack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="후드집업"
+                />
+            <RadioButton
+                android:id="@+id/outZo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="조끼"
+                />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재질 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/outer_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/outCotton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="면(코튼)"
+                />
+
+            <RadioButton
+                android:id="@+id/outWool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모직(울)"
+                />
+            <RadioButton
+                android:id="@+id/outPoly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="폴리에스터"
+                />
+        </RadioGroup>
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="색깔 :"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+        <RadioGroup
+            android:id="@+id/outer_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/outWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="흰색"
+                />
+            <RadioButton
+                android:id="@+id/outGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회색"
+                />
+            <RadioButton
+                android:id="@+id/outBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="검정색"
+                />
+            <RadioButton
+                android:id="@+id/outBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="파란색"
+                />
+        </RadioGroup>
+    </LinearLayout>
+-->
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cate_ok"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="확인"
+            android:background="@drawable/btn_size"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            />
+        <Button
+            android:id="@+id/cate_no"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="취소"
+            android:background="@drawable/btn_size"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

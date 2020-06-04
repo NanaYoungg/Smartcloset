@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+   <!-- <TextView
+        android:id="@+id/dust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dust"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/dust_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/dust"
+        app:layout_constraintTop_toBottomOf="@id/dust"
+        app:layout_constraintTop_toTopOf="@id/dust"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/per1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/dust_persent"
+        app:layout_constraintTop_toBottomOf="@id/dust"
+        app:layout_constraintTop_toTopOf="@id/dust"
+        android:textSize="30dp"
+        android:text="@string/per"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/hum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/dust"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"
+        />
+
+
+    <TextView
+        android:id="@+id/hum_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/dust_persent"
+        app:layout_constraintTop_toBottomOf="@id/hum"
+        app:layout_constraintTop_toTopOf="@id/hum"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/per2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/per1"
+        app:layout_constraintTop_toBottomOf="@id/hum"
+        app:layout_constraintTop_toTopOf="@id/hum"
+        android:textSize="30dp"
+        android:text="@string/per"
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/smile"
+        app:layout_constraintTop_toBottomOf="@id/dust"
+        app:layout_constraintTop_toTopOf="@id/dust"
+        app:layout_constraintLeft_toRightOf="@id/per1"
+        android:layout_marginLeft="15dp"
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bad"
+        app:layout_constraintTop_toBottomOf="@id/hum"
+        app:layout_constraintTop_toTopOf="@id/hum"
+        app:layout_constraintLeft_toRightOf="@id/per2"
+        android:layout_marginLeft="15dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hum"
+        android:layout_marginTop="40dp"
+        android:background="#BDBDBD"/>
+
+    <Switch
+        android:id="@+id/Clean_auto"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:checked="true"
+        android:text="자동 실행:"
+        android:switchMinWidth="100dp"
+        android:track="@drawable/swith1"
+        android:thumb="@drawable/swith_thumb"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/hum"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/res_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약실행:"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/Clean_auto"
+        app:layout_constraintTop_toTopOf="@id/Clean_auto"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/res_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_size"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintLeft_toRightOf="@id/res_start"
+        app:layout_constraintTop_toTopOf="@id/res_start"
+        app:layout_constraintBottom_toBottomOf="@id/res_start"
+        android:layout_marginLeft="50dp"
+        android:text="예약 하기"
+
+        />
+
+
+
+
+    <include
+        layout="@layout/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>

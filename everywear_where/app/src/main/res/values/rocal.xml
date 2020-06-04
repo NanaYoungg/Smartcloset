@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city1">
+        <item>도</item>
+        <item>   </item>
+        <item>경기도</item>
+
+
+    </string-array>
+
+
+    <string-array name="city2">
+        <item>시</item>
+        <item>   </item>
+        <item>동두천시</item>
+
+    </string-array>
+
+    <string-array name="city3">
+        <item>동</item>
+        <item>  </item>
+        <item>상패동</item>
+        <item>송내동</item>
+        <item>지행동</item>
+        <item>생연동</item>
+        <item>광암동</item>
+        <item>걸산동</item>
+        <item>보산동</item>
+        <item>동두천동</item>
+        <item>안흥동</item>
+        <item>상봉암동</item>
+        <item>하봉암동</item>
+        <item>탑동동</item>
+        <item>생연1동</item>
+        <item>생연2동</item>
+        <item>중앙동</item>
+        <item>불현동</item>
+        <item>소요동</item>
+
+
+    </string-array>
+
+
+
+
+
+
+</resources>

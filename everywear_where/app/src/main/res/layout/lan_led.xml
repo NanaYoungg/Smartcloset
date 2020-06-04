@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--
+  <CheckBox
+      android:id="@+id/LED1"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="on"
+      />
+
+  <CheckBox
+      android:id="@+id/LED2"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="off"/>
+    <TextView
+        android:id="@+id/press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="압력값:"
+        app:layout_constraintLeft_toRightOf="@id/LED1"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:id="@+id/mEdit"
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/press"
+        app:layout_constraintTop_toTopOf="@id/press"
+
+        />
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    />
+
+    <TextView
+        android:id="@+id/connect_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="디바이스목록   →   HC-06에 연결해주세요! "
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/green1"
+        android:layout_marginLeft="10dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.1"
+          android:text="RX:"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:textStyle="bold" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.9"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:text="Read Buffer"
+          android:id="@+id/readBuffer"
+          android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.1"
+          android:text="Status:"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:textStyle="bold" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.9"
+
+          android:text="Bluetooth Status"
+          android:id="@+id/bluetoothStatus"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:layout_centerHorizontal="true"
+          android:layout_alignTop="@+id/checkboxLED1" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블루투스 켜기"
+        android:id="@+id/scan"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/off" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블루투스 끄기"
+        android:id="@+id/off"
+        android:layout_alignBottom="@+id/scan"
+        android:layout_toEndOf="@+id/PairedBtn"
+        android:layout_toRightOf="@+id/PairedBtn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="디바이스 목록"
+        android:id="@+id/PairedBtn"
+        android:layout_below="@+id/scan"
+        android:layout_toStartOf="@+id/discover" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새로운 디바이스 검색"
+        android:id="@+id/discover"
+        android:layout_below="@+id/off"
+        android:layout_toRightOf="@+id/checkboxLED1"
+        android:layout_toEndOf="@+id/checkboxLED1" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:id="@+id/devicesListView"
+        android:choiceMode="singleChoice"
+        android:layout_below="@+id/PairedBtn"
+        android:layout_alignRight="@+id/off"
+        android:layout_alignEnd="@+id/off" />
+
+
+  </LinearLayout>
+
+  <include
+      layout="@layout/bottom_bar"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

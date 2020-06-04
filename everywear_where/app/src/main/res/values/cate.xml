@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="top_k">
+            <item> </item>
+            <item>반팔</item>
+            <item>긴팔</item>
+            <item>후드티</item>
+        </string-array>
+    <string-array name="top_q">
+        <item> </item>
+        <item>면(코튼)</item>
+        <item>폴리에스터</item>
+        <item>모직(울)</item>
+    </string-array>
+
+    <string-array name="bottom_k">
+        <item> </item>
+        <item>반바지</item>
+        <item>긴바지</item>
+    </string-array>
+    <string-array name="bottom_q">
+        <item> </item>
+        <item>면(코튼)</item>
+        <item>폴리에스터</item>
+        <item>청(데님)</item>
+        <item>모직(울)</item>
+
+    </string-array>
+
+    <string-array name="outer_k">
+        <item> </item>
+        <item>가디건</item>
+        <item>패딩</item>
+        <item>자켓</item>
+        <item>조끼</item>
+    </string-array>
+    <string-array name="outer_q">
+        <item> </item>
+        <item>면(코튼)</item>
+        <item>폴리에스터</item>
+        <item>청(데님)</item>
+        <item>모직(울)</item>
+
+    </string-array>
+
+
+    </resources>

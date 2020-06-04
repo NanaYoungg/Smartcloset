@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1053009438958",
+    "firebase_url": "https://everywear-794cd.firebaseio.com",
+    "project_id": "everywear-794cd",
+    "storage_bucket": "everywear-794cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053009438958:android:5eb0edee9b8d1816f72bff",
+        "android_client_info": {
+          "package_name": "com.example.actionbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053009438958-bopjv2s53isq3688h2usav60q1stct9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.actionbar",
+            "certificate_hash": "e5332b28852263a58ad3d849d1e09388adf7b7b5"
+          }
+        },
+        {
+          "client_id": "1053009438958-ncrbkjtjm05sb760krlnjn2p85bg0a9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzPG78LQl7OQ7JOcxloX1dyvKGAuvNbKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053009438958-ncrbkjtjm05sb760krlnjn2p85bg0a9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
